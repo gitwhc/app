@@ -49,11 +49,11 @@ int main(){
                 send(stream,buf,1,0);
             }
             if(cho_1==2){
-                buf[0]='1';
+                buf[0]='2';
                 send(stream,buf,1,0);
             }
             if(cho_1==3){
-                buf[0]='1';
+                buf[0]='3';
                 send(stream,buf,1,0);
             }
             if(cho_1==4){
