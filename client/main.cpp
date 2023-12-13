@@ -45,7 +45,7 @@ int main(){
         while(1){
             cin>>cho_1;
             if(cho_1==1){
-                buf[0]='1';
+                buf[0]='122';
                 send(stream,buf,1,0);
             }
             if(cho_1==2){
